@@ -15,6 +15,9 @@ python rl/agent/train.py \
     --max-tickers 500 \
     --total-timesteps 500000 \
     --eval-freq 25000 \
+    --net 8 8 \
+    --lr 1e-4 \
+    --ent-coef 0.03 \
     --train-start 2000-01-01 \
     --train-end 2024-06-30 \
     --val-start 2024-07-01 \
